@@ -1,0 +1,13 @@
+{
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/fact-check",
+      "destination": "/api/fact-check"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
