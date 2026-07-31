@@ -1,32 +1,41 @@
-# React + TypeScript + Vite
+# SwasthyaCheck AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Check the claim. Know the truth.**
 
-Currently, two official plugins are available:
+SwasthyaCheck AI is an AI-powered health misinformation fact-checking platform designed to help users verify health claims before believing, acting on, or forwarding them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Text-based health claim checking
+- Image-based claim checking
+- Voice-based claim checking
+- Multilingual support for Indian languages
+- Automatic language detection
+- Clear verdict and explanation
+- Evidence strength and trusted source information
+- Safe next-step guidance
+- Family Safe Mode for simpler explanations
+- Myth vs Fact cards
+- Forward Simulator
+- Read Aloud accessibility
+- Adjustable text sizes
+- History and demo cases
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How It Works
 
-## Expanding the Oxlint configuration
+Users can enter a health-related message or submit a claim through the available input methods. SwasthyaCheck AI analyzes the claim and presents an easy-to-understand result containing the verdict, explanation, evidence strength, trusted source, safe next step, and guidance on whether the claim should be forwarded.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Purpose
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+Health misinformation can lead to unsafe decisions and spread quickly through messaging platforms and social media. SwasthyaCheck AI makes health fact-checking more accessible, understandable, and convenient, helping users make safer decisions before acting on or sharing health information.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Node.js
+
+## Safety
+
+SwasthyaCheck AI is designed to communicate uncertainty when reliable evidence is unavailable and encourages users to rely on trusted healthcare sources for medical decisions.
