@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Copy, Check, Share2, ShieldCheck, Sparkles, AlertTriangle, ExternalLink } from 'lucide-react';
+import { Copy, Check, Share2, ShieldCheck, Sparkles, ExternalLink } from 'lucide-react';
 import type { FactCheckResult, Language, VerdictType } from '../types';
 import { getTranslation } from '../data/languages';
 

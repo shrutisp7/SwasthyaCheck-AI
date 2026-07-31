@@ -10,9 +10,7 @@ import {
   Check,
   Volume2,
   VolumeX,
-  Info,
-  Star,
-  Bookmark
+  Star
 } from 'lucide-react';
 import type { FactCheckResult, Language, VerdictType } from '../types';
 import { getTranslation } from '../data/languages';

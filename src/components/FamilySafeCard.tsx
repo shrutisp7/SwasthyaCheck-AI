@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShieldAlert, Volume2, VolumeX, CheckCircle, XCircle, AlertTriangle, HelpCircle, ExternalLink, Share2 } from 'lucide-react';
+import { ShieldAlert, Volume2, VolumeX, CheckCircle, XCircle, AlertTriangle, HelpCircle, ExternalLink } from 'lucide-react';
 import type { FactCheckResult, Language, VerdictType } from '../types';
 import { getTranslation } from '../data/languages';
 import { speakText, stopSpeaking } from '../services/speechService';

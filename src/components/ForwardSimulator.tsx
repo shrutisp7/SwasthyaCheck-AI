@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MessageSquare, Forward, ShieldAlert, CheckCircle, Search, AlertCircle, Sparkles } from 'lucide-react';
-import type { Language, SimulatorPreset, FactCheckResult } from '../types';
+import { MessageSquare, Forward, Search } from 'lucide-react';
+import type { Language, SimulatorPreset } from '../types';
 import { getTranslation } from '../data/languages';
 
 interface ForwardSimulatorProps {
